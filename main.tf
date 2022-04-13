@@ -1,6 +1,6 @@
 resource "random_string" "this" {
-  length  = 8
-  lower   = true
-  upper   = false
-  special = false
+  length  = var.length
+  lower   = var.lower
+  upper   = var.upper
+  special = var.special
 }
