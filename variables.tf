@@ -18,4 +18,6 @@ variable "special" {
 
 variable "upper" {
   description = "Whether the random ID should include upper-case characters"
+  type        = bool
+  default     = false
 }
